@@ -1,7 +1,7 @@
 	
 /******************** Data ********************/
 shops = ["道蘊商店", "論劍商店", "諸天商會", "宗門寶庫", "百族寶箱"];
-bounds = ["人界", "返虛", "煞海", "合體", "蠱族"];
+bounds = ["人界", "返虛", "魔族", "合體", "巫族", "大乘", "荒族"];
 types = ["火", "劍", "雷", "百族"];
 colors = ["text-danger", "text-warning", "text-primary", "text-black"];
 
@@ -19,7 +19,8 @@ levels = [
 		{n:"地3", f:400, g:240, p:620 , b:1560},
 		{n:"天1", f:480, g:320, p:820 , b:2060},
 		{n:"天2", f:600, g:440, p:1120, b:2810},
-		{n:"天3", f:720, g:560, p:1420, b:3560}], // 人界
+		{n:"天3", f:720, g:560, p:1420, b:3560},
+	], // 人界
 	[
 		{n:"無" , f:0   , g:0   , p:0   , b:0    },
 		{n:"1星", f:40  , g:0   , p:0   , b:0    },
@@ -33,7 +34,8 @@ levels = [
 		{n:"地3", f:600 , g:1040, p:2250, b:5500 },
 		{n:"天1", f:800 , g:1360, p:2950, b:7300 },
 		{n:"天2", f:1040, g:1760, p:3750, b:9400 },
-		{n:"天3", f:1320, g:2240, p:4750, b:11800}], // 返虛
+		{n:"天3", f:1320, g:2240, p:4750, b:11800},
+	], // 返虛
 	[
 		{n:"無" , f:0   , g:0   , p:0   , b:0    },
 		{n:"1星", f:40  , g:0   , p:0   , b:0    },
@@ -47,7 +49,8 @@ levels = [
 		{n:"地3", f:600 , g:2000, p:3100, b:7950 },
 		{n:"天1", f:800 , g:2560, p:4000, b:10150},
 		{n:"天2", f:1040, g:3200, p:5000, b:12650},
-		{n:"天3", f:1320, g:3920, p:6200, b:15450}], // 煞海
+		{n:"天3", f:1320, g:3920, p:6200, b:15450},
+    ], // 魔族
 	[
 		{n:"無" , f:0   , g:0   , p:0   , b:0    },
 		{n:"1星", f:40  , g:0   , p:0   , b:0    },
@@ -64,8 +67,8 @@ levels = [
 		{n:"天3", f:1360, g:2680, p:4750, b:11800},
 		{n:"天4", f:1680, g:3280, p:5750, b:14200},
 		{n:"天5", f:2040, g:3960, p:6750, b:16600},
-	] // 合體
-	,[
+	], // 合體
+	[
 		{n:"無" , f:0   , g:0   , p:0   , b:0    },
 		{n:"1星", f:40  , g:0   , p:0   , b:0    },
 		{n:"2星", f:40  , g:160 , p:100 , b:300  },
@@ -78,7 +81,40 @@ levels = [
 		{n:"地3", f:600 , g:2320, p:3100, b:7950 },
 		{n:"天1", f:800 , g:2920, p:4000, b:10150},
 		{n:"天2", f:1040, g:3600, p:5000, b:12650},
-		{n:"天3", f:1320, g:4360, p:6200, b:15450}], // 蠱族
+		{n:"天3", f:1320, g:4360, p:6200, b:15450},
+	], // 巫族
+	[
+		{n:"無" , f:0   , g:0   , p:0   , b:0    },
+		{n:"1星", f:40  , g:0   , p:0   , b:0    },
+		{n:"2星", f:40  , g:120 , p:100 , b:200  },
+		{n:"3星", f:40  , g:240 , p:200 , b:400  },
+		{n:"玄1", f:80  , g:360 , p:350 , b:750  },
+		{n:"玄2", f:160 , g:480 , p:550 , b:1250 },
+		{n:"玄3", f:240 , g:640 , p:800 , b:1900 },
+		{n:"地1", f:360 , g:840 , p:1150, b:2800 },
+		{n:"地2", f:480 , g:1080, p:1650, b:4000 },
+		{n:"地3", f:640 , g:1360, p:2250, b:5500 },
+		{n:"天1", f:840 , g:1720, p:2950, b:7300 },
+		{n:"天2", f:1080, g:2160, p:3750, b:9400 },
+		{n:"天3", f:1360, g:2680, p:4750, b:11800},
+		{n:"天4", f:1680, g:3280, p:5750, b:14200},
+		{n:"天5", f:2040, g:3960, p:6750, b:16600},
+	], // 大乘
+	[
+		{n:"無" , f:0   , g:0   , p:0   , b:0    },
+		{n:"1星", f:40  , g:0   , p:0   , b:0    },
+		{n:"2星", f:40  , g:160 , p:100 , b:300  },
+		{n:"3星", f:40  , g:320 , p:250 , b:650  },
+		{n:"玄1", f:80  , g:520 , p:500 , b:1250 },
+		{n:"玄2", f:160 , g:720 , p:800 , b:2050 },
+		{n:"玄3", f:240 , g:1000, p:1250, b:3150 },
+		{n:"地1", f:320 , g:1360, p:1750, b:4450 },
+		{n:"地2", f:440 , g:1800, p:2350, b:6050 },
+		{n:"地3", f:600 , g:2320, p:3100, b:7950 },
+		{n:"天1", f:800 , g:2920, p:4000, b:10150},
+		{n:"天2", f:1040, g:3600, p:5000, b:12650},
+		{n:"天3", f:1320, g:4360, p:6200, b:15450},
+	], // 荒族
 ];
 
 skills = [
@@ -120,7 +156,7 @@ skills = [
 	{id:33, name:"垂光", shop:1, bound:1, type:2},
 	{id:34, name:"黃龍", shop:2, bound:1, type:2},
 	{id:35, name:"青蛇", shop:3, bound:1, type:2},
-	// 煞海
+	// 魔族
 	{id:36, name:"烈雨", shop:4, bound:2, type:3},
 	{id:37, name:"冥火", shop:4, bound:2, type:3},
 	{id:38, name:"業蓮", shop:4, bound:2, type:3},
@@ -138,11 +174,29 @@ skills = [
 	{id:49, name:"嵐霆", shop:1, bound:3, type:2},
 	{id:50, name:"鬥辰", shop:2, bound:3, type:2},
 	{id:51, name:"崩雲", shop:3, bound:3, type:2},
-	// 蠱族
+	// 巫族
 	{id:52, name:"幽蝕", shop:4, bound:4, type:3},
 	{id:53, name:"驚蟬", shop:4, bound:4, type:3},
 	{id:54, name:"蛻蛇", shop:4, bound:4, type:3},
 	{id:55, name:"祭律", shop:4, bound:4, type:3},
+	// 大乘
+	{id:56, name:"焚滅", shop:0, bound:5, type:0},
+	{id:57, name:"丹羽", shop:1, bound:5, type:0},
+	{id:58, name:"離珠", shop:2, bound:5, type:0},
+	{id:59, name:"神儀", shop:3, bound:5, type:0},
+	{id:60, name:"八極", shop:0, bound:5, type:1},
+	{id:61, name:"穿星", shop:1, bound:5, type:1},
+	{id:62, name:"開天", shop:2, bound:5, type:1},
+	{id:63, name:"斬龍", shop:3, bound:5, type:1},
+	{id:64, name:"天驅", shop:0, bound:5, type:2},
+	{id:65, name:"雷槍", shop:1, bound:5, type:2},
+	{id:66, name:"迅霆", shop:2, bound:5, type:2},
+	{id:67, name:"追電", shop:3, bound:5, type:2},
+	// 荒族
+	{id:68, name:"冰牙", shop:4, bound:6, type:3},
+	{id:69, name:"劍舞", shop:4, bound:6, type:3},
+	{id:70, name:"遁雷", shop:4, bound:6, type:3},
+	{id:71, name:"烽火", shop:4, bound:6, type:3},
 ];
 
 /******************** Core Compute & Default View ********************/
@@ -443,7 +497,8 @@ $('#ttbl > tbody > tr').on('click', function (e) {
 			issel = target[i].id == sk.id;
 			name = sk.name;
 			if (sk.bound == 1 || sk.bound == 2) name += " (魔)";
-			if (sk.bound == 3 || sk.bound == 4) name += " (蠱)";
+			if (sk.bound == 3 || sk.bound == 4) name += " (巫)";
+			if (sk.bound == 5 || sk.bound == 6) name += " (荒)";
 			$('#tl' + i)[0].innerHTML += "<option class='" + colors[sk.type] + "' value='" + it.id + "'" + (issel ? "selected" : "") + ">" + name + "</option>";
 		});
 		$('#tll' + i)[0].innerHTML = '';
@@ -508,7 +563,8 @@ $('#stbl > tbody > tr').on('click', function (e) {
 		issel = source[idx].id == sk.id;
 		name = sk.name;
 		if (sk.bound == 1 || sk.bound == 2) name += " (魔)";
-		if (sk.bound == 3 || sk.bound == 4) name += " (蠱)";
+		if (sk.bound == 3 || sk.bound == 4) name += " (巫)";
+		if (sk.bound == 5 || sk.bound == 6) name += " (荒)";
 		$('#sl1')[0].innerHTML += "<option class='" + colors[sk.type] + "' value='" + it.id + "'" + (issel ? "selected" : "") + ">" + name + "</option>";
 	});
 	$('#sll1')[0].innerHTML = '';
@@ -536,9 +592,9 @@ $('#stbl > tbody > tr').on('click', function (e) {
 		return a.shop - b.shop;
 	});
 	strhtml = '<div class="row">';
-	for (i = 0; i < sks.length; i+=12) {
+	for (i = 0; i < sks.length; i+=15) {
 		strhtml += '<div class="col col-md-6 px-2 mx-0 my-1 border align-start" style="min-width:120px; background-color: rgba(255, 255, 255, 0.9);"><h6 class="my-1">' + shops[sks[i].shop] + ' ' + '</h6><hr class="divider my-2">';
-		for (j = i; j < Math.min(i + 12, sks.length); j++) {
+		for (j = i; j < Math.min(i + 15, sks.length); j++) {
 			amount = sm.get(sks[j].id) == undefined ? "" : sm.get(sks[j].id);
 			isdis = source[idx].id == sks[j].id ? " disabled" : "";
 			if (isdis)
@@ -676,9 +732,9 @@ $('#sfs').on('click', function (e) {
 		return a.shop - b.shop;
 	});
 	strhtml = '<div class="row">';
-	for (i = 0; i < sks.length; i+=12) {
+	for (i = 0; i < sks.length; i+=15) {
 		strhtml += '<div class="col col-md-6 px-2 mx-0 my-1 border align-start" style="min-width:120px; background-color: rgba(255, 255, 255, 0.9);"><h6 class="my-1">' + shops[sks[i].shop] + ' ' + '</h6><hr class="divider my-2">';
-		for (j = i; j < Math.min(i + 12, sks.length); j++) {
+		for (j = i; j < Math.min(i + 15, sks.length); j++) {
 			amount = sm.get(sks[j].id) == undefined ? "" : sm.get(sks[j].id);
 			strhtml += '<p id="src' + sks[j].id + '" class="text-start mb-1"><span class=' + colors[sks[j].type] + '>' + sks[j].name + '</span>';
 			strhtml += ' <button onclick="sfonminus(' +  + sks[j].id + ')">-</button><button onclick="sfonplus(' +  + sks[j].id + ')">+</button>';
